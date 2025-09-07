@@ -1,14 +1,19 @@
-# react-native-snap-carousel
+# react-native-snap-carousel (Patched Fork)
 
-![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-brightgreen.svg?style=flat-square&colorB=191A17)
-[![npm](https://img.shields.io/npm/v/react-native-snap-carousel.svg?style=flat-square)](https://www.npmjs.com/package/react-native-snap-carousel)
-[![npm](https://img.shields.io/npm/dm/react-native-snap-carousel.svg?style=flat-square&colorB=007ec6)](https://www.npmjs.com/package/react-native-snap-carousel)
-<!-- [![github release](https://img.shields.io/github/release/meliorence/react-native-snap-carousel.svg?style=flat-square)](https://github.com/meliorence/react-native-snap-carousel/releases) -->
-[![github issues](https://img.shields.io/github/issues/meliorence/react-native-snap-carousel.svg?style=flat-square)](https://github.com/meliorence/react-native-snap-carousel/issues)
-[![github closed issues](https://img.shields.io/github/issues-closed/meliorence/react-native-snap-carousel.svg?style=flat-square&colorB=44cc11)](https://github.com/meliorence/react-native-snap-carousel/issues?q=is%3Aissue+is%3Aclosed)
-[![Issue Stats](https://img.shields.io/issuestats/i/github/meliorence/react-native-snap-carousel.svg?style=flat-square&colorB=44cc11)](http://github.com/meliorence/react-native-snap-carousel/issues)
+> **⚠️ This is a fork of the original [react-native-snap-carousel](https://github.com/meliorence/react-native-snap-carousel) package.**
+> 
+> **🔧 Fixed Issue:** Deprecated ViewPropTypes Patch - Resolves `TypeError: Cannot read property 'style' of undefined`
+> 
+> This fork addresses compatibility issues with newer React Native versions where ViewPropTypes was deprecated and moved to a separate package.
 
------
+## Original Repository
+👉 **[meliorence/react-native-snap-carousel](https://github.com/meliorence/react-native-snap-carousel)**
+
+## What's Fixed
+- ✅ Fixed ViewPropTypes deprecation warnings
+- ✅ Resolved `TypeError: Cannot read property 'style' of undefined` 
+- ✅ Compatible with React Native 0.68+ versions
+
 -----
 
 ## ✨ Some great news for you, fellow plugin user!
